@@ -1,6 +1,6 @@
 # DimeRun v2
 
-DimeRun v2 enables you to provision on-demand self-hosted runners for your GitHub Action workflows. These ephemeral runners are spun up in your own AWS account, providing flexibility and scalability to your CI/CD processes.
+DimeRun v2 enables you to provision on-demand self-hosted GitHub Actions runners on AWS EC2. These ephemeral runners are spun up in your own AWS account, providing flexibility and scalability to your CI/CD processes.
 
 ## Getting started
 
@@ -95,7 +95,7 @@ Modify the configuration as needed according to your specific environment:
   - instanceType: Type of EC2 instances.
   - pdVolumeType: Type of the persistent disk volume.
   - pdVolumeSize: Size of the persistent disk volume.
-- userEmail: Your email address.
+- userEmail: Your email address. By filling in your email address, you agree to be added to our mailing list.
 
 ### 5. Run with configuration
 
@@ -166,4 +166,4 @@ For detailed deployment instructions, please refer to our [wiki](https://github.
 
 ## Support
 
-If you find a bug of DimeRun v2, feel free to report it in the [issues](https://github.com/dimerun/v2/issues).
+If you find a bug or have questions to ask, feel free to discuss it in the [issues](https://github.com/dimerun/v2/issues).
